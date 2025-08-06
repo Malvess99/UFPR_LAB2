@@ -1,2 +1,2 @@
-# UFPR_LAB2
-Curso de licenciatura em computação, matéria Laboratório de programação II
+# programas-cpp
+Códigos da disciplina de programação em C++
