@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main (){
+
+    printf("1. Exibir nome, idade e curso.\n");
+    printf("Nome: João Silva\n");
+    printf("Idade: 20 anos\n");
+    printf("Curso: Ciencia da Computacao\n\n");
+
+    printf("2. Exibir um poema com \\n.\n");
+    printf("Rosas sao vermelhas,\n");
+    printf("Violetas sao azuis,\n");
+    printf("Estudar em C\n");
+    printf("E bom demais da conta!\n\n");
+
+    printf("Exercicio 3: Tabuada fixa do 2.\n");
+
+    int i;  // declara antes
+    for (i = 1; i <= 10; i++) {
+        printf("2 x %d = %d\n", i, 2 * i);
+    }
+
+    printf("\n");
+
+return 0 ;
+
+}
