@@ -1,0 +1,38 @@
+//etapa 2
+
+#include <stdio.h>
+
+int main() {
+
+    int x, y;
+    printf("4: Operacoes matematicas com dois inteiros.\n");
+    printf("Digite dois inteiros: ");
+    scanf("%d %d", &x, &y);
+
+    printf("Soma: %d\n", x + y);
+    printf("Subtracao: %d\n", x - y);
+    printf("Multiplicacao: %d\n", x * y);
+
+    if (y != 0) {
+        printf("Divisao: %d\n", x / y);
+        printf("Resto: %d\n", x % y);
+    } else {
+        printf("Divisao e resto: impossivel dividir por zero!\n");
+    }
+    printf("\n");
+
+    float raio, area;
+    printf("5: Area da circunferencia.\n");
+    printf("Digite o raio: ");
+    scanf("%f", &raio);
+    area = 3.14159 * raio * raio;
+    printf("Area da circunferencia: %.2f\n\n", area);
+
+    int idade;
+    printf("6: Calcular dias de vida aproximados.\n");
+    printf("Digite sua idade: ");
+    scanf("%d", &idade);
+    printf("Voce viveu aproximadamente %d dias.\n\n", idade * 365);
+
+return 0;
+}
