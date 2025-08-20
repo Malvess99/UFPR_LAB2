@@ -1,0 +1,45 @@
+//etapa 3
+
+#include <stdio.h>
+
+int main() {
+
+    int num;
+    printf("7: Verificar se o numero e positivo, negativo ou zero.\n");
+    printf("Digite um numero: ");
+    scanf("%d", &num);
+    if (num > 0)
+        printf("Numero positivo.\n");
+    else if (num < 0)
+        printf("Numero negativo.\n");
+    else
+        printf("Zero.\n");
+    printf("\n");
+
+    int n1, n2;
+    printf("8: Descobrir qual numero e maior.\n");
+    printf("Digite dois numeros: ");
+    scanf("%d %d", &n1, &n2);
+    if (n1 > n2)
+        printf("Maior: %d\n", n1);
+    else if (n2 > n1)
+        printf("Maior: %d\n", n2);
+    else
+        printf("Sao iguais.\n");
+    printf("\n");
+
+    float nA, nB, media;
+    printf("9: Verificar aprovacao de aluno.\n");
+    printf("Digite duas notas: ");
+    scanf("%f %f", &nA, &nB);
+    media = (nA + nB) / 2;
+
+    if (media >= 7)
+        printf("Aprovado! Media = %.2f\n", media);
+    else if (media >= 5)
+        printf("Recuperacao. Media = %.2f\n", media);
+    else
+        printf("Reprovado. Media = %.2f\n", media);
+
+    return 0;
+}
